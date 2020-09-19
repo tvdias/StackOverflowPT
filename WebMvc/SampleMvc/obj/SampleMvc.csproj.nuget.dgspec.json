@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\Web\\SampleMvc\\SampleMvc\\SampleMvc.csproj": {}
+    "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\WebMvc\\SampleMvc\\SampleMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\Web\\SampleMvc\\SampleMvc\\SampleMvc.csproj": {
+    "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\WebMvc\\SampleMvc\\SampleMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\Web\\SampleMvc\\SampleMvc\\SampleMvc.csproj",
+        "projectUniqueName": "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\WebMvc\\SampleMvc\\SampleMvc.csproj",
         "projectName": "SampleMvc",
-        "projectPath": "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\Web\\SampleMvc\\SampleMvc\\SampleMvc.csproj",
+        "projectPath": "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\WebMvc\\SampleMvc\\SampleMvc.csproj",
         "packagesPath": "C:\\Users\\thiago.vaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\Web\\SampleMvc\\SampleMvc\\obj\\",
+        "outputPath": "C:\\Users\\thiago.vaz\\source\\repos\\Samples\\WebMvc\\SampleMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
